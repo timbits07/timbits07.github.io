@@ -60,5 +60,13 @@ $(document).ready(function(){
         i = ++i % divs.length;
     };
     cycle()
-    $('#arrows').click(function(){cycle()})
+    $('#arrows').click(function(){
+      cycle();
+      $('#arrows').toggleClass('rotate');
+      $('#arrows').toggleClass('rotate-reset');
+    })
+
+  //Portfolio sections click reveals correct content
+  
+
 })
