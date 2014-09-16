@@ -113,23 +113,40 @@ PORTFOLIO
 	display: inline-block;
 	text-align: center;
 	margin-top: 25px;
+	color: #000;
+}
+
+#portfolio li a {
+	text-decoration: none;
 }
 
 #portfolio li a:visited {
 	color: #000;
 }
 
-/*.port_item {
-	width: 35%;
-	margin: 20px 7.25%;
-	display: inline-block;
-	background-color: rgba(255, 255, 255, 0.6	);
+#project_div {
+	margin: 50px auto 0;
+	width: 80%;
+
 }
 
-.port_item img {
-	width: 90%;
-	margin: 20px 0 20px 5%;
-}*/
+.project_pic {
+	width: 48%;
+	padding-right: 20px;
+	border-right: 1px solid black;
+	float: left;
+}
+
+.project_pic img {
+	width: 100%	;
+}
+
+.project_desc {
+	width: 48%;
+	padding-left: 20px;
+	float: right;
+	line-height: 1.5em;
+}
 
 
 /***************************
@@ -148,9 +165,9 @@ ABOUT ME
 
 #arrows {
 	height: 55px;
-	margin-left: 47%;
+	margin-left: 47.5%;
 	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 }
 
 .cycle_content {
