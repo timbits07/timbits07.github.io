@@ -82,4 +82,12 @@ $(document).ready(function(){
     $mainContent.load(newHash + " #project_div > *");
   });
 
+  //animation for contact icons
+  $('.contact_icon').mouseover(function(){
+    $(this).addClass('animated rubberBand');
+  });
+  $('.contact_icon').mouseleave(function(){
+    $(this).removeClass('animated rubberBand');
+  });
+
 })
