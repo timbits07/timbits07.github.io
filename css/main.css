@@ -225,7 +225,7 @@ CONTACT
 	height: 60px;
 	margin: 100px 8% 0;
 	padding: 20px;
-	border: 2px solid black;
+	border: 2px dashed black;
 	border-radius: 5px 25px 5px;
 }
 
@@ -243,4 +243,8 @@ CONTACT
 
 #email:hover {
 	background-color: #9b59b6;
+}
+
+#quote {
+	margin-top: 75px;
 }

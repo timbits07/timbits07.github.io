@@ -9,14 +9,14 @@ $(document).ready(function(){
     // Define window scroll function
   $window.scroll(function() {
       // For portfolio link
-      if ($window.scrollTop() > (homeSlide - 25) && $window.scrollTop() < (slideOne - 300) ) {
+      if ($window.scrollTop() > (homeSlide - 25) && $window.scrollTop() < (slideOne - 50) ) {
         $("#about_link").addClass("link_active");
       }
       else {
         $("#about_link").removeClass("link_active");
       }
       // For about me link
-      if ($window.scrollTop() > (slideOne - 25) && $window.scrollTop() < (slideTwo - 300)) {
+      if ($window.scrollTop() > (slideOne - 25) && $window.scrollTop() < (slideTwo - 50)) {
         $("#portfolio_link").addClass("link_active");
       }
       else {
