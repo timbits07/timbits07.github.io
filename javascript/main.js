@@ -7,30 +7,30 @@ $(document).ready(function(){
   var slideTwo = $('#contact').offset().top;
 
     // Define window scroll function
-  $window.scroll(function() {
-      // For portfolio link
-      if ($window.scrollTop() > (homeSlide - 25) && $window.scrollTop() < (slideOne - 50) ) {
-        $("#about_link").addClass("link_active");
-      }
-      else {
-        $("#about_link").removeClass("link_active");
-      }
-      // For about me link
-      if ($window.scrollTop() > (slideOne - 25) && $window.scrollTop() < (slideTwo - 50)) {
-        $("#portfolio_link").addClass("link_active");
-      }
-      else {
-        $("#portfolio_link").removeClass("link_active");
-      }
-      // For contact link
-      if ($window.scrollTop() > slideTwo - 25) {
-        $("#contact_link").addClass("link_active");
-        $("#portfolio_link").removeClass("link_active");
-      }
-      else {
-        $("#contact_link").removeClass("link_active");
-      }
-  });
+  // $window.scroll(function() {
+  //     // For portfolio link
+  //     if ($window.scrollTop() > (homeSlide - 25) && $window.scrollTop() < (slideOne - 50) ) {
+  //       $("#about_link").addClass("link_active");
+  //     }
+  //     else {
+  //       $("#about_link").removeClass("link_active");
+  //     }
+  //     // For about me link
+  //     if ($window.scrollTop() > (slideOne - 25) && $window.scrollTop() < (slideTwo - 50)) {
+  //       $("#portfolio_link").addClass("link_active");
+  //     }
+  //     else {
+  //       $("#portfolio_link").removeClass("link_active");
+  //     }
+  //     // For contact link
+  //     if ($window.scrollTop() > slideTwo - 25) {
+  //       $("#contact_link").addClass("link_active");
+  //       $("#portfolio_link").removeClass("link_active");
+  //     }
+  //     else {
+  //       $("#contact_link").removeClass("link_active");
+  //     }
+  // });
 
   // Define Scroll Function
   function scrollTo(id){
