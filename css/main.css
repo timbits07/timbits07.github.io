@@ -223,7 +223,7 @@ CONTACT
 .contact_icon {
 	display: inline-block;
 	height: 60px;
-	margin: 100px 8% 0;
+	margin: 100px 5.5% 0;
 	padding: 20px;
 	border: 2px dashed black;
 	border-radius: 5px 25px 5px;
@@ -243,6 +243,10 @@ CONTACT
 
 #email:hover {
 	background-color: #9b59b6;
+}
+
+#github:hover {
+	background-color: #c0392b;
 }
 
 #quote {
