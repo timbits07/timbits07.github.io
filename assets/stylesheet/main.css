@@ -497,3 +497,11 @@ body {
     transform: scale(1, 1);
   }
 }
+
+#email {
+  font-weight: bold;
+}
+
+#email:hover {
+  font-weight: normal;
+}
