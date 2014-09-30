@@ -7,7 +7,7 @@ $(document).on('Compass', function (e) {
      *****************************/
 
 
-    $(".portfolio-item").swipebox();
+    // $(".portfolio-item").swipebox();
 
      /**
       * Contact Form
